@@ -1,9 +1,9 @@
 ---
 layout: default
 body_class: trainers
-title: Meet your trainers
+title: Our researchers
 html_title: Git Trainers
-byline: Meet the people who will help you succeed.
+byline: Meet our researchers.
 ---
 
 {% for trainer in site.categories.trainers %}
@@ -18,7 +18,7 @@ byline: Meet the people who will help you succeed.
         <div class="container">
           <div class="half">
             <h3>
-              {{ trainer.name }}
+              <a href="{{ trainer.website }}">{{ trainer.name }}</a>
               <span class="social">
                 <a href="https://github.com/{{ trainer.github }}">
                   <img src="{{ site.url }}/img/octocat-icon.png" width="16px" height="16px" alt="View {{ trainer.github }}’s code on GitHub">
