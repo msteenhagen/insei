@@ -1,8 +1,9 @@
 ---
 name: Louise Braddock
 avatar_url: https://secure.gravatar.com/avatar/9112400090829f79d97ed9b12056fa4f?s=420&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png
-github: matthewmccullough
-twitter: matthewmccull
+<!-- github: matthewmccullough
+twitter: matthewmccull -->
+email: lb@cam.ac.uk
 website: http://www.google.com
 testimonial: Louise, this class was truly excellent. It may be the best online class I’ve ever attended.
 testimonial_author: Bruce Tate
