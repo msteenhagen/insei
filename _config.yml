@@ -1,5 +1,5 @@
 google_analytics_id: UA-3769691-19
-
+url:              http://localhost:4000
 # For Atom Feed
 domain: training.github.com
 author: GitHub Training Team
