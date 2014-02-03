@@ -9,17 +9,17 @@
         <li{% if page.body_class == 'overview' %} class="current"{% endif %}>
           <a href="{{ site.url }}/">About the network</a>
         </li>
-        <li{% if page.body_class == 'trainers' %} class="current"{% endif %}>
-          <a href="{{ site.url }}/trainers/">Researchers</a>
+        <!-- <li{% if page.body_class == 'trainers' %} class="current"{% endif %}>
+          <a href="{{ site.url }}/trainers/">Members</a>
+        </li> -->
+        <li{% if page.body_class == 'web' %} class="current"{% endif %}>
+          <a href="{{ site.url }}/web/">Meetings</a>
         </li>
-        <!-- <li{% if page.body_class == 'web' %} class="current"{% endif %}>
-          <a href="{{ site.url }}/web/">Reading</a>
-        </li> -->
-        <!-- <li{% if page.body_class == 'in-person' %} class="current"{% endif %}>
-          <a href="{{ site.url }}/in-person/">In-person</a>
-        </li> -->
         <li{% if page.body_class == 'resources' %} class="current"{% endif %}>
           <a href="{{ site.url }}/resources/">Resources</a>
+        </li>
+        <li{% if page.body_class == 'trainers' %} class="current"{% endif %}>
+          <a href="{{ site.url }}/trainers/">Members</a>
         </li>
         <li{% if page.body_class == 'contact' %} class="current"{% endif %}>
           <a href="{{ site.url }}/contact/">Contact</a>

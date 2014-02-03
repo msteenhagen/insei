@@ -1,22 +1,22 @@
 ---
 layout: default
 body_class: web
-title: Web-based GitHub and Git training
-html_title: Online Git Courses
-byline: GitHub and Git training from anywhere.
+title: Meetings
+html_title: INSEI Meetings
+byline: Seminars, workshops and conferences.
 ---
 
 <div class="subpage-list">
   <ul>
+          <li{% if page.subpage == 'foundations' %} class="current"{% endif %}>
+            <a href="{{ site.url }}/web/git-foundations/">Upcoming meetings</a>
+          </li>
     <li{% if page.subpage == 'classes' %} class="current"{% endif %}>
-      <a href="{{ site.url }}/web/free-classes/">Free GitHub &amp; Git Classes</a>
+      <a href="{{ site.url }}/web/free-classes/">Past meetings</a>
     </li>
-    <li{% if page.subpage == 'foundations' %} class="current"{% endif %}>
-      <a href="{{ site.url }}/web/git-foundations/">GitHub &amp; Git Foundations Course</a>
-    </li>
-    <li{% if page.subpage == 'advanced' %} class="current"{% endif %}>
+    <!-- <li{% if page.subpage == 'advanced' %} class="current"{% endif %}>
       <a href="{{ site.url }}/web/advanced-git/">Advanced GitHub &amp; Git Course</a>
-    </li>
+    </li> -->
   </ul>
 </div>
 

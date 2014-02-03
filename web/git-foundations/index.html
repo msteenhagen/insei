@@ -6,40 +6,29 @@ prerequisites: Basic knowledge about a version control system is recommended, wh
 
 <div class="golden-large">
   <div class="content">
-    <h3>GitHub &amp; Git Foundations Course</h3>
-    <p>Our Foundations class helps you, as a newcomer to GitHub and Git, fully grasp the concepts and application of distributed version control so that you can effectively begin using this productivity-enhancing suite of tools. During this live training course, we’ll explore the foundations of GitHub and Git through practical every-day commands and processes. We’ll conclude with workflow ideas and practical tips that will get you on the road to mastery of this revolutionary version control system.</p>
-
+    <h3>Meetings</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
     <div class="container">
       <div class="half">
         <h4>Topics</h4>
         <ul>
-          <li>Introductions</li>
-          <li>Git and your initial setup</li>
-          <li>Git configuration and its inheritance</li>
-          <li>Your first repository</li>
-          <li>Understanding and thinking in Git's three stages</li>
-          <li>Adding, committing, and diff-ing code changes</li>
-          <li>The Similarity Index; Moving, Renaming, and Removing files</li>
-          <li>Reviewing version history in Git</li>
-          <li>Strategies for efficiency</li>
-          <li>Managing and using Git Remotes</li>
-          <li>Branching, Tagging, and Stashing</li>
-          <li>Merging, Rebasing, and managing conflicts</li>
-          <li>Undoing your work with Git</li>
-          <li>Making Git work with SVN</li>
+          <li>Empathy</li>
+          <li>Sympathy</li>
+          <li>Identification</li>
+          <li>Current developments in psychology</li>
+          <li>Classics</li>
+          <li>Anthropology</li>
+          <li>Philosophy of empathy and sympathy</li>
         </ul>
       </div>
       <div class="half">
         <h4>Objectives</h4>
         <ul>
-          <li>Understand how Git works and how to apply that to day to day development.</li>
-          <li>Learn how GitHub makes distributed collaboration both effective and enjoyable.</li>
-          <li>Practice the use of Pull Requests to make contributions to any project.</li>
-          <li>Learn the basic 10 commands that will appear in your every-day use of Git.</li>
-          <li>Know how to “back out” mistakes using Git’s incredible history and ability to revert almost any change.</li>
-          <li>Leverage the features of GitHub for easier collaboration with colleagues.</li>
-          <li>Discover how the offline capabilities of Git work.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
         </ul>
       </div>
     </div>
@@ -49,7 +38,7 @@ prerequisites: Basic knowledge about a version control system is recommended, wh
 </div>
 <div class="golden-small">
   <div class="content">
-    <h4>Upcoming Courses</h4>
+    <h4>Scheduled</h4>
     <ul class="resource-list class-list">
       {% for class in site.tags.web-foundations reversed %}
         <li class="resource class small-class">
@@ -60,10 +49,11 @@ prerequisites: Basic knowledge about a version control system is recommended, wh
               </p>
             </div>
             <h4>{{ class.title }}</h4>
+	      <p><em>{{ class.location }}</em></p><br/>
             <p>
             </p>
             <div class="description">
-              <p><span class="cost">{{ class.cost }}</span></p>
+              <!-- <p><span class="cost">{{ class.cost }}</span></p> -->
             </div>
           </div>
           <div class="details">
@@ -84,10 +74,10 @@ prerequisites: Basic knowledge about a version control system is recommended, wh
         <p>There are no scheduled web-based foundation classes at this time. Stay tuned for updates!</p>
       {% endif %}
     </ul>
-    <p>Private group events are available. Please <a href="{{ site.url }}/contact/">contact us</a> for more information.</p>
-    {% if page.prerequisites %}
+    <p>Feel free to <a href="{{ site.url }}/contact/">contact us</a> for more information.</p>
+    <!-- {% if page.prerequisites %}
       <h4>Prerequisites</h4>
       <p>{{ page.prerequisites }}</p>
-    {% endif %}
+    {% endif %} -->
   </div>
 </div>

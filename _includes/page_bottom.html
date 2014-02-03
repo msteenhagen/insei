@@ -1,34 +1,28 @@
 <div class="container page-bottom">
   <div class="third">
     <div class="content">
-      {% unless page.body_class == 'contact' %}
-        <h3>Contact us</h3>
-        <p>If you have any questions about INSEI or want to know more about our activities and plans, get in touch with Louise Braddock, our principal investigator.</p>
-        <p class="more"><a href="/contact/" class="">Contact us »</a></p>
-      {% else %}
-        <h3>Meet your trainers</h3>
-        <p>Our trainers are experts when it comes to helping you become truly competent using GitHub and Git to get work done. They are professional, down-to-earth, and a pleasure to deal with.</p>
-        <p class="more"><a href="/trainers/" class="">Meet our Git experts »</a></p>
-      {% endunless %}
+      {% unless page.body_class == 'trainers' %}
+   <h3>Members</h3>
+   <p>If you have any questions about INSEI or want to know more about our activities and plans, get in touch with Louise Braddock, our principal investigator.</p>
+   <p class="more"><a href="/contact/" class="">Contact us »</a></p>
+    {% else %}
+    <h3>Meetings</h3>
+    <p>If you have any questions about INSEI or want to know more about our activities and plans, get in touch with Louise Braddock, our principal investigator.</p>
+    <p class="more"><a href="/contact/" class="">Contact us »</a></p>
+        {% endunless %}
     </div>
   </div>
   <div class="third">
     <div class="content">
-      <!-- <div class="testimonial">
-        <p class="byline"></p>
-        <div class="quote">
-          <p id="js-quote-text"></p>
-          <div class="pointer-border"></div>
-          <div class="pointer"></div>
-        </div>
-        <div class="author">
-          <h3 id="js-quote-author"></h3>
-          <p id="js-quote-company"></p>
-        </div>
-      </div> -->
+            {% unless page.body_class == 'contact' %}
               <h3>Contact us</h3>
               <p>If you have any questions about INSEI or want to know more about our activities and plans, get in touch with Louise Braddock, our principal investigator.</p>
               <p class="more"><a href="/contact/" class="">Contact us »</a></p>
+            {% else %}
+              <h3>Meet your trainers</h3>
+              <p>Our trainers are experts when it comes to helping you become truly competent using GitHub and Git to get work done. They are professional, down-to-earth, and a pleasure to deal with.</p>
+              <p class="more"><a href="/trainers/" class="">Meet our Git experts »</a></p>
+            {% endunless %}
     </div>
   </div>
   <div class="third">
