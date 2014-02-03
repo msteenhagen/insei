@@ -1,5 +1,5 @@
 ---
-name: Louise Braddock
+name: Anik Waldow
 avatar_url: https://secure.gravatar.com/avatar/9112400090829f79d97ed9b12056fa4f?s=420&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png
 <!-- github: matthewmccullough
 twitter: matthewmccull -->
@@ -9,4 +9,4 @@ testimonial: Louise, this class was truly excellent. It may be the best online c
 testimonial_author: Bruce Tate
 ---
 
-Louise Braddock has many years of experience teaching GitHub and Git courses. He is a co-author of O’Reilly’s Git Master Class, with Tim Berglund. He authored DZone’s Git RefCard, as well as the Git modules in “Jenkins: The Definitive Guide”.
+Anik Waldow is Senior Lecturer in the Philosophy Department at the University of Sydney. She mainly works in early modern philosophy and has published articles on the moral and cognitive function of Humean sympathy, early modern theories of personal identity, skepticism and associationist theories of thought and language. She is the author of the book  David Hume and the Problem of Other Minds (2009)
