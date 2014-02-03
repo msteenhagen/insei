@@ -1,6 +1,6 @@
 ---
 name: Anik Waldow
-avatar_url: http://msteenhagen.github.io/insei/img/anik.jpg
+avatar_url: http://msteenhagen.github.io/insei/img/anik.png
 <!-- github: matthewmccullough
 twitter: matthewmccull -->
 email: lb@cam.ac.uk
