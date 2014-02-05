@@ -1,6 +1,6 @@
 ---
 name: Adam Leite
-avatar_url: http://www.insei.net/img/leite.jpg
+avatar_url: http://www.insei.net/img/leite.png
 <!-- github: matthewmccullough
 twitter: matthewmccull -->
 email: lb@cam.ac.uk
