@@ -3,7 +3,7 @@ url: http://msteenhagen.github.io/insei
 author: INSEI
 email: m.steenhagen.09@ucl.ac.uk
 title: INSEI
-
+pagetitle: INSEI
 # standard jekyll configuration
 
 permalink: /articles/:title
