@@ -1,6 +1,6 @@
 ---
-name: Anik Waldow
-avatar_url: http://msteenhagen.github.io/insei/img/anik.png
+name: Derek Matravers
+avatar_url: http://msteenhagen.github.io/insei/img/derek.png
 <!-- github: matthewmccullough
 twitter: matthewmccull -->
 email: lb@cam.ac.uk
@@ -9,4 +9,5 @@ testimonial: Louise, this class was truly excellent. It may be the best online c
 testimonial_author: Bruce Tate
 ---
 
-Anik Waldow is Senior Lecturer in the Philosophy Department at the University of Sydney. She mainly works in early modern philosophy and has published articles on the moral and cognitive function of Humean sympathy, early modern theories of personal identity, skepticism and associationist theories of thought and language. She is the author of the book  David Hume and the Problem of Other Minds (2009)
+Derek Matravers' interest in empathy stemmed from his involvement in a project run by Amy Coplan (of Cal State Fullerton) and the late Peter Goldie (the Samuel Hall Professor in Manchester). This culminated in a large international conference and an edited collection in which Matravers has a paper (Empathy: Philosophical and Psychological Perspectives (OUP, 2011)). He is contracted to write a book on empathy for Polity Press, to be published in 2014.
+
