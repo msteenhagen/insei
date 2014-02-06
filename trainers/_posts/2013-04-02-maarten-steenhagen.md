@@ -5,6 +5,7 @@ avatar_url: http://msteenhagen.github.io/insei/img/maarten.png
 twitter: matthewmccull -->
 email: m.steenhagen.09@ucl.ac.uk
 website: http://msteenhagen.github.io
+twitter: msteenhagen
 testimonial: Louise, this class was truly excellent. It may be the best online class I’ve ever attended.
 testimonial_author: Bruce Tate
 ---
