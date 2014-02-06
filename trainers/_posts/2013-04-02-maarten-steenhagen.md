@@ -1,8 +1,6 @@
 ---
 name: Maarten Steenhagen
 avatar_url: http://msteenhagen.github.io/insei/img/maarten.png
-<!-- github: matthewmccullough
-twitter: matthewmccull -->
 email: m.steenhagen.09@ucl.ac.uk
 website: http://msteenhagen.github.io
 twitter: msteenhagen

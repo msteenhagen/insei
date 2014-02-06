@@ -1,8 +1,6 @@
 ---
 name: Katherine Harloe
 avatar_url: http://msteenhagen.github.io/insei/img/katherine.png
-<!-- github: matthewmccullough
-twitter: matthewmccull -->
 email: j@j.com
 website: http://
 testimonial: Louise, this class was truly excellent. It may be the best online class I’ve ever attended.
