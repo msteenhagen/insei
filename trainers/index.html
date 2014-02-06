@@ -18,17 +18,19 @@ byline: Meet the people involved.
         <div class="container">
           <div class="half">
             <h3>
-              <a href="{{ trainer.website }}">{{ trainer.name }}</a>
+              {{ trainer.name }}
+	      <!-- <a href="{{ trainer.website }}">{{ trainer.name }}</a> -->
               <span class="social">
-                <a href="https://github.com/{{ trainer.github }}">
+                <!-- <a href="https://github.com/{{ trainer.github }}">
                   <img src="{{ site.url }}/img/octocat-icon.png" width="16px" height="16px" alt="View {{ trainer.github }}’s code on GitHub">
                 </a>
                 <a href="mailto:{{ trainer.email }}">
                   <img src="{{ site.url }}/img/icon-mail.png" width="25px" height="16px" alt="Contact {{ trainer.name }} via email">
-                </a>
+                </a> -->
+	 {% if trainer.twitter %}
                 <a href="http://twitter.com/{{ trainer.twitter }}">
                   <img src="{{ site.url }}/img/twitter-icon.png" width="16px" height="16px" alt="Follow {{ trainer.github }} on Twitter">
-                </a>
+                </a>{% endif %}
               </span>
             </h3>
             <p class="bio">{{ trainer.content }}</p>
