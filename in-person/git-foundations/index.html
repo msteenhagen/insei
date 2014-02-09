@@ -6,10 +6,13 @@ prerequisites: Basic knowledge about a version control system is recommended, wh
 
 <div class="golden-large">
   <div class="content">
-    <h3>GitHub &amp; Git Foundations Course</h3>
-    <p>Our Foundations class helps you, as a newcomer to GitHub and Git, fully grasp the concepts and application of distributed version control so that you can effectively begin using this productivity-enhancing suite of tools. During this live training course, we’ll explore the foundations of GitHub and Git through practical every-day commands and processes. We’ll conclude with workflow ideas and practical tips that will get you on the road to mastery of this revolutionary version control system.</p>
-
-
+    <h3>Empathy, Sympathy and Imagination</h3>
+    
+    <p>The two terms sympathy and empathy have been used by different authors at different times to pick out the human capacity to 'read' others' emotional states of mind using a form of imagination involving the body. The acceptance of human emotion as a legitimate object of philosophical study has led to renewed interest from moral psychology in the original formulation of sympathy as this is found in the philosophy of the Scottish Naturalists Hume and Smith. These writers derived the idea in part from their own observation, in part from classical writing on rhetoric. From them it enters German aesthetics through the work of Herder, to become the 'Einfuhlung' subsequently mis-translated back into English as 'empathy' (empathes in Greek means ‘impassioned’).</p> 
+    
+    <p>At the same time, the phenomenon that is being adumbrated is one that is foundational for psychoanalysis as the operation of projective identification in the psychoanalytic counter-transference. This in turn is a concept with applications in anthropological method. </p>
+	    <p>Bringing together the uses of the concept of sympathy in the different disciplines has the potential to show how they are all concerned with the same fundamental human communicative ability and its constitutive connection with the imagination. Not only, then will the imagination come to require re-theorising; for since many of the phenomena sympathy draws in fall under the very broad, and largely un-explanatory, heading of ‘identification’ (by now a portmanteau term with too little real explanatory power) it is to be hoped that this over-used concept will itself acquire greater clarity.</p>
+   
     <div class="container">
       <div class="half">
         <h4>Topics</h4>
@@ -49,42 +52,10 @@ prerequisites: Basic knowledge about a version control system is recommended, wh
 </div>
 <div class="golden-small">
   <div class="content">
-    <h4>Upcoming Courses</h4>
-    <ul class="resource-list class-list">
-      {% for class in site.tags.inperson-foundations %}
-        <li class="resource class small-class">
-          <div class="summary">
-            <div class="actions">
-              <p class="register">
-                <a href="{{ class.registration_url }}" class="button">Register Now</a>
-              </p>
-            </div>
-            <h4>{{ class.title }}</h4>
-            <p>
-            </p>
-            <div class="description">
-              <p><span class="cost">{{ class.cost }}</span></p>
-            </div>
-          </div>
-          <div class="details">
-            <span class="date">
-              <img src="{{ site.url }}/img/icon-calendar.png" alt="Date" width="16px" height="16px" class="icon">
-              {{ class.the_date }}
-            </span>
-            <span class="time">
-              <img src="{{ site.url }}/img/icon-clock.png" alt="Time" width="16px" height="16px" class="icon">
-              {{ class.start_time }}
-              {% if class.end_time %} to {{ class.end_time }}{% endif %}
-              {% if class.timezone %}(<a href="{{ class.timezonelink }}">{{ class.timezone }}</a>){% endif %}
-            </span>
-          </div>
-        </li>
-      {% endfor %}
-      {% if site.tags.inperson-foundations[0] == null %}
-        <p>There are no scheduled in-person foundation classes at this time. Stay tuned for updates!</p>
-      {% endif %}
-    </ul>
-    <p>Private group events are available. Please <a href="{{ site.url }}/contact/">contact us</a> for more information.</p>
+    <h4>About INSEI</h4>
+    <p>INSEI stands for Interdisciplinary Network on Sympathy/Empathy and Imagination. We began in October 2103, as an interdisciplinary group wanting to bring together and pool our knowledge about the concept of sympathy, show its continuity with contemporary ‘empathy’ as well as with ancient thought about the topic, and explore the relation of both to the imagination. Bringing many perspectives from different disciplines under one intellectual roof, even if rarely under one actual one, and getting to know each others’ ways of thinking, we have begun to discover new and exciting avenues of thought.</p>
+    
+    <p>The impetus to set up the network came initially from the convergence of interests in philosophy, particularly moral psychology and aesthetics, and in classics, psychoanalysis and anthropology, though many other disciplines could and it is to be hoped will bring something of their own to the investigation.</p>
     {% if page.prerequisites %}
       <h4>Prerequisites</h4>
       <p>{{ page.prerequisites }}</p>
