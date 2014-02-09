@@ -1,8 +1,6 @@
 ---
 name: Holly High
 avatar_url: http://msteenhagen.github.io/insei/img/holly.png
-<!-- github: matthewmccullough
-twitter: matthewmccull -->
 email: lb@cam.ac.uk
 website: http://www.google.com
 testimonial: Louise, this class was truly excellent. It may be the best online class I’ve ever attended.
