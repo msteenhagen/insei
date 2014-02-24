@@ -1,0 +1,30 @@
+---
+layout: resources
+subpage: books
+---
+
+<div class="container">
+  <div class="content">
+    <div class="section-description">
+      <h3>Links</h3>
+      <p>Here is a list of some useful links to websites.</p>
+    </div>
+    <ul class="resource-list book-list">
+      {% for link in site.categories.links %}
+        <li class="resource book">
+          <div class="container">
+            <div class="fifth">
+              <a href="{{ link.the_url }}">
+              </a>
+            </div>
+            <div class="four-fifths">
+              <h4><a href="{{ link.the_url }}">{{ link.title }}</a></h4>
+              <p class="body">{{ link.content }}</p>
+            </div>
+          </div>
+        </li>
+
+      {% endfor %}
+    </ul>
+  </div>
+</div>
