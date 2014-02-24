@@ -1,6 +1,6 @@
 ---
 layout: resources
-subpage: videos
+subpage: publications
 ---
 
 <div class="container">
@@ -10,19 +10,19 @@ subpage: videos
       <p>Here is a collection of publications and drafts.</p>
     </div>
     <ul class="resource-list video-list">
-      {% for video in site.categories.videos %}
+      {% for publication in site.categories.publications %}
         <li class="resource video">
           <div class="container">
             <div class="third">
               <a href="{{ video.the_url }}">
                 <img src="assets/{{ video.image_filename }}" alt="{{ video.title }}">
               </a>
-	      <p><small>{{ video.author }}, {{ video.year }}</small></p>
-	      <p><small>{{ video.journal }}</small></p>
+	      <p><small>{{ publication.author }}, {{ publication.year }}</small></p>
+	      <p><small>{{ publication.journal }}</small></p>
             </div>
             <div class="two-thirds">
-              <h4><a href="{{ video.the_url }}">{{ video.title }}</a></h4>
-              <p class="body">{{ video.content }}</p>
+              <h4><a href="{{ publication.the_url }}">{{ publication.title }}</a></h4>
+              <p class="body">{{ publication.content }}</p>
             </div>
           </div>
         </li>
