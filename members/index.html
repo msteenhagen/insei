@@ -6,11 +6,11 @@ html_title: Members
 byline: Meet the people involved.
 ---
 
-{% for trainer in site.categories.trainers %}
+{% for member in site.categories.trainers %}
   <div class="trainer section center-on-mobiles">
     <div class="fifth">
       <div class="content">
-        <img src="{{ trainer.avatar_url }}" class="avatar" alt="{{ trainer.name }}, GitHub Trainer">
+        <img src="{{ member.avatar_url }}" class="avatar" alt="{{ member.name }}, GitHub Trainer">
       </div>
     </div>
     <div class="four-fifths">
@@ -18,7 +18,7 @@ byline: Meet the people involved.
         <div class="container">
           <div class="half">
             <h3>
-              {{ trainer.name }}
+              {{ member.name }}
 	      <!-- <a href="{{ trainer.website }}">{{ trainer.name }}</a> -->
               <span class="social">
                 <!-- <a href="https://github.com/{{ trainer.github }}">
@@ -28,12 +28,12 @@ byline: Meet the people involved.
                   <img src="{{ site.url }}/img/icon-mail.png" width="25px" height="16px" alt="Contact {{ trainer.name }} via email">
                 </a> -->
 	 {% if trainer.twitter %}
-                <a href="http://twitter.com/{{ trainer.twitter }}">
-                  <img src="{{ site.url }}/img/twitter-icon.png" width="16px" height="16px" alt="Follow {{ trainer.github }} on Twitter">
+                <a href="http://twitter.com/{{ member.twitter }}">
+                  <img src="{{ site.url }}/img/twitter-icon.png" width="16px" height="16px" alt="Follow {{ member.github }} on Twitter">
                 </a>{% endif %}
               </span>
             </h3>
-            <p class="bio">{{ trainer.content }}</p>
+            <p class="bio">{{ member.content }}</p>
           </div>
           <div class="half">
             <!-- <div class="testimonial content">
