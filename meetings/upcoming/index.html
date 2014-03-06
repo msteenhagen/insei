@@ -44,9 +44,10 @@ prerequisites: None
         <li class="resource class small-class">
           <div class="summary">
             <div class="actions">
+		     {% if class.registration_url %} 
               <p class="register">
                 <a href="{{ class.registration_url }}" class="button">Register Now</a>
-              </p>
+              </p>{% endif %}
             </div>
             <h4>{{ class.title }}</h4>
 	      <p><em>{{ class.location }}</em></p><br/>
