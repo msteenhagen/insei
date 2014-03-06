@@ -8,6 +8,6 @@ timezone: GMT
 timezonelink: http://www.timeanddate.com/worldclock/difference.html?p1=75
 cost: Free
 registration_url: 
-tags: ['web-free', 'rss']
+tags: ['past', 'rss']
 ---
 
