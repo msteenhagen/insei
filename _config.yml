@@ -7,7 +7,7 @@ pagetitle: INSEI
 # standard jekyll configuration
 
 permalink: /articles/:title
-pygments: true
+highlighter: true
 exclude:
 - bin
 - config.rb
